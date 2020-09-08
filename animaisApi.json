@@ -1,0 +1,31 @@
+[
+    {
+       "specie":"BEAGLE",
+       "total":4874
+    },
+
+    {
+        "specie":"DALMATIAN",
+        "total":7851385685
+     },
+
+     {
+        "specie":"DOBERMANN",
+        "total":785185
+     },
+
+     {
+        "specie":"GOLDEN",
+        "total":9622
+     },
+
+     {
+        "specie":"HUSKY",
+        "total":477
+     },
+
+     {
+        "specie":"PUG",
+        "total":9965
+     }
+]
