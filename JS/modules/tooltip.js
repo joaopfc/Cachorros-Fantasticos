@@ -59,4 +59,3 @@ export default class Tooltip {
       return this;
     }
   }
-  
