@@ -3,7 +3,7 @@ import Accordion from './modules/accordion.js';
 import TabNav from './modules/tabNav.js';
 import Modal from './modules/modal.js';
 import Tolltip from './modules/tooltip.js';
-import initDropDownmenu from './modules/dropdown-menu.js';
+import DropdownMenu from './modules/dropdown-menu.js';
 import initMenuMobile from './modules/menu-mobile.js'
 import initFuncionamento from './modules/funcionamento.js'
 import fetchAnimais from './modules/fetch-animais.js'
@@ -30,7 +30,10 @@ tolltip.init();
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 
-initDropDownmenu();
+const dropdownMenu = new DropdownMenu('[data-dropdown]')
+dropdownMenu.init();
+
+
 initMenuMobile();
 initFuncionamento();
 
